@@ -13,7 +13,7 @@ public class SwiftAppTrackingPermissionPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     if #available(iOS 14, *) {
-        result( ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+         ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
             switch status {
             case .authorized:
                 print("authorized \(ASIdentifierManager.shared().advertisingIdentifier)")
@@ -27,7 +27,7 @@ public class SwiftAppTrackingPermissionPlugin: NSObject, FlutterPlugin {
                                  fatalError()
                              
             }
-        }))
+        })
     } else {
         // Fallback on earlier versions
     }
