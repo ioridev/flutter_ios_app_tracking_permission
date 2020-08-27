@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppTracking_permission.iml" filepath="$PROJECT_DIR$/AppTracking_permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/AppTracking_permission_android.iml" filepath="$PROJECT_DIR$/android/AppTracking_permission_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/AppTracking_permission_example_android.iml" filepath="$PROJECT_DIR$/example/android/AppTracking_permission_example_android.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+PODS:
+  - AppTracking_permission (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - AppTracking_permission (from `.symlinks/plugins/AppTracking_permission/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  AppTracking_permission:
+    :path: ".symlinks/plugins/AppTracking_permission/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  AppTracking_permission: cc6c54dd1c20e7ae94f7e738ed2187bccb2c023e
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
