@@ -1,6 +1,6 @@
 # AppTracking_permission
-
-A new flutter plugin project.
+A plugin that asks for permissions to use IDFA in Flutter apps  
+![image](https://user-images.githubusercontent.com/41247249/91434135-544d0800-e89f-11ea-8965-9f8daa4619b8.png)
 
 ## Getting Started
 
