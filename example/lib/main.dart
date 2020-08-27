@@ -18,11 +18,6 @@ class _MyAppState extends State<MyApp> {
     super.initState();
   }
 
-  // Platform messages are asynchronous, so we initialize in an async method.
-  Future<void> requestPermission() async {
-    AppTrackingPermission.requestPermission;
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: FlatButton(
-              onPressed: () => requestPermission(),
+              onPressed: () => AppTrackingPermission.requestPermission(),
               child: Text('Request Permission')),
         ),
       ),

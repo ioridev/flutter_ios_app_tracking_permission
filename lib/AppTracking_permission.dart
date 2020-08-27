@@ -6,7 +6,7 @@ class AppTrackingPermission {
   static const MethodChannel _channel =
       const MethodChannel('AppTracking_permission');
 
-  static Future<void> get requestPermission async {
+  static Future<void> requestPermission() async {
     _channel.invokeMethod('getPermission');
   }
 }
