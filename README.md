@@ -4,11 +4,11 @@ A plugin that asks for permissions to use IDFA in Flutter apps
 
 ## Getting Started. 
   
-IOS14 & XCODE beta. 
-flutter_ios_app_tracking_permission:   
-    git:  
-      url: git://github.com/ioridev/flutter_ios_app_tracking_permission.git  
-      ref: master  
-     
-  flutter pub get 
+add info.plist
 
+```
+<key>NSUserTrackingUsageDescription</key>
+<string>This identifier will be used to deliver personalized ads to you.</string>
+```
+
+For functionality from IOS14, you need to use the IOS14 Simulator and XCODE 12.  
