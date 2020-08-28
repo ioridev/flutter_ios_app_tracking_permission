@@ -1,4 +1,4 @@
-name: AppTracking_permission
+name: flutter_ios_app_tracking_permission
 description: A new flutter plugin project.
 version: 0.0.1
 author:
@@ -28,8 +28,7 @@ flutter:
   plugin:
     platforms:
       ios:
-        pluginClass: AppTrackingPermissionPlugin
-
+        pluginClass: FlutterIosAppTrackingPermissionPlugin
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
 
-import 'package:AppTracking_permission/AppTracking_permission.dart';
+import 'package:flutter_ios_app_tracking_permission/flutter_ios_app_tracking_permission.dart';
 
 void main() {
   runApp(MyApp());

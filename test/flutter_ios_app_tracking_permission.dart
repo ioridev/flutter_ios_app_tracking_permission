@@ -2,7 +2,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('AppTracking_permission');
+  const MethodChannel channel =
+      MethodChannel('flutter_ios_app_tracking_permission');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

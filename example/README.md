@@ -1,6 +1,6 @@
-# AppTracking_permission_example
+# flutter_ios_app_tracking_permission_example
 
-Demonstrates how to use the AppTracking_permission plugin.
+Demonstrates how to use the flutter_ios_app_tracking_permission plugin.
 
 ## Getting Started
 
