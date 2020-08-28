@@ -1,6 +1,6 @@
 name: flutter_ios_app_tracking_permission
-description: A new flutter plugin project.
-version: 0.0.2
+description: In IOS14, you need to get permission to get the IDFA. A plugin that invokes a native dialog asking for permission to do so.
+version: 0.0.3
 homepage: https://github.com/ioridev
 
 environment:
