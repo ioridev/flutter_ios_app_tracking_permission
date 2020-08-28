@@ -1,7 +1,6 @@
 name: flutter_ios_app_tracking_permission
 description: A new flutter plugin project.
 version: 0.0.1
-author: iori kojima
 homepage: https://github.com/ioridev
 
 environment:
